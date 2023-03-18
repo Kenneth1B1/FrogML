@@ -1,6 +1,6 @@
 # FrogML
 Android Application based on Frog Statue locations found in Erie, PA.  Uses K-means clustering algorithm to determine best route for trips.
-
+The code is based on MVC architecture, and demonstrates separation in accordance to model, view, and controler. 
 
 This project is unfinished, and currently needs the following elements implemented.
 

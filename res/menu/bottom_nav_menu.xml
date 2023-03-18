@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/temp1"
+        android:title="List"
+        android:icon="@drawable/frogicon_foreground"/>
+    <item
+        android:id="@+id/temp2"
+        android:title="Trip Planner"
+        android:icon="@drawable/plannericon_foreground"/>
+    <item
+        android:id="@+id/temp3"
+        android:title="Map"
+        android:icon="@drawable/mapicon_foreground"/>
+</menu>

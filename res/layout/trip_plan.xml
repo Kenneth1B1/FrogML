@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="677dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="55dp">
+
+        <TextView
+            android:id="@+id/TripText"
+            android:layout_width="309dp"
+            android:layout_height="77dp"
+            android:text="How many total trips?"
+            android:textSize="30sp"
+            app:autoSizeMaxTextSize="20px"
+            app:autoSizeMinTextSize="20px" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:max="3"
+            android:progress="1" />
+
+        <TextView
+            android:id="@+id/tripCountText"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="4"
+            android:textSize="30sp"
+            app:autoSizeMaxTextSize="20px"
+            app:autoSizeMinTextSize="20px" />
+
+        <Button
+            android:id="@+id/trip_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Trip Count" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
